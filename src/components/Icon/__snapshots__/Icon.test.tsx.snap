@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon Component renders correctly with custom size and color 1`] = `
+<RNSVGSvgView
+  align="xMidYMid"
+  bbHeight={48}
+  bbWidth={48}
+  fill="none"
+  focusable={false}
+  height={48}
+  meetOrSlice={0}
+  minX={0}
+  minY={0}
+  style={
+    [
+      {
+        "backgroundColor": "transparent",
+        "borderWidth": 0,
+      },
+      {
+        "flex": 0,
+        "height": 48,
+        "width": 48,
+      },
+    ]
+  }
+  vbHeight={32}
+  vbWidth={32}
+  width={48}
+>
+  <RNSVGGroup
+    fill={null}
+    propList={
+      [
+        "fill",
+      ]
+    }
+  >
+    <RNSVGPath
+      d="M24 8L8 24"
+      fill={
+        {
+          "payload": 4278190080,
+          "type": 0,
+        }
+      }
+      propList={
+        [
+          "stroke",
+          "strokeWidth",
+          "strokeLinecap",
+          "strokeLinejoin",
+        ]
+      }
+      stroke={
+        {
+          "payload": 4294901760,
+          "type": 0,
+        }
+      }
+      strokeLinecap={1}
+      strokeLinejoin={1}
+      strokeWidth="2"
+    />
+    <RNSVGPath
+      d="M8 8L24 24"
+      fill={
+        {
+          "payload": 4278190080,
+          "type": 0,
+        }
+      }
+      propList={
+        [
+          "stroke",
+          "strokeWidth",
+          "strokeLinecap",
+          "strokeLinejoin",
+        ]
+      }
+      stroke={
+        {
+          "payload": 4294901760,
+          "type": 0,
+        }
+      }
+      strokeLinecap={1}
+      strokeLinejoin={1}
+      strokeWidth="2"
+    />
+  </RNSVGGroup>
+</RNSVGSvgView>
+`;
+
+exports[`Icon Component renders correctly with default props 1`] = `
+<RNSVGSvgView
+  align="xMidYMid"
+  bbHeight={32}
+  bbWidth={32}
+  fill="none"
+  focusable={false}
+  height={32}
+  meetOrSlice={0}
+  minX={0}
+  minY={0}
+  style={
+    [
+      {
+        "backgroundColor": "transparent",
+        "borderWidth": 0,
+      },
+      {
+        "flex": 0,
+        "height": 32,
+        "width": 32,
+      },
+    ]
+  }
+  vbHeight={32}
+  vbWidth={32}
+  width={32}
+>
+  <RNSVGGroup
+    fill={null}
+    propList={
+      [
+        "fill",
+      ]
+    }
+  >
+    <RNSVGPath
+      d="M27.7867 6.14667C27.1057 5.46534 26.2971 4.92486 25.4071 4.55611C24.5172 4.18736 23.5633 3.99757 22.6 3.99757C21.6367 3.99757 20.6828 4.18736 19.7929 4.55611C18.9029 4.92486 18.0943 5.46534 17.4133 6.14667L16 7.56L14.5867 6.14667C13.2111 4.77108 11.3454 3.99828 9.4 3.99828C7.45463 3.99828 5.58893 4.77108 4.21334 6.14667C2.83775 7.52226 2.06495 9.38795 2.06495 11.3333C2.06495 13.2787 2.83775 15.1444 4.21334 16.52L5.62667 17.9333L16 28.3067L26.3733 17.9333L27.7867 16.52C28.468 15.839 29.0085 15.0304 29.3772 14.1405C29.746 13.2505 29.9358 12.2966 29.9358 11.3333C29.9358 10.37 29.746 9.41614 29.3772 8.52619C29.0085 7.63625 28.468 6.82767 27.7867 6.14667V6.14667Z"
+      fill={
+        {
+          "payload": 4282597697,
+          "type": 0,
+        }
+      }
+      propList={
+        [
+          "fill",
+          "stroke",
+          "strokeWidth",
+          "strokeLinecap",
+          "strokeLinejoin",
+        ]
+      }
+      stroke={
+        {
+          "payload": 4282597697,
+          "type": 0,
+        }
+      }
+      strokeLinecap={1}
+      strokeLinejoin={1}
+      strokeWidth="2"
+    />
+  </RNSVGGroup>
+</RNSVGSvgView>
+`;

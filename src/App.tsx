@@ -1,7 +1,7 @@
 import {SafeAreaView, StatusBar, StyleSheet} from "react-native";
 
 import styled from "styled-components/native";
-import {Typography} from "~/components/Typography";
+import {Icon} from "~/components/Icon";
 
 function App(): React.JSX.Element {
   const backgroundStyle = {
@@ -13,9 +13,11 @@ function App(): React.JSX.Element {
     <SafeAreaView style={backgroundStyle}>
       <StatusBar barStyle="dark-content" backgroundColor={backgroundStyle.backgroundColor} />
       <Root>
-        <Typography variant="headline" text="02" color="#BFBFC0" />
-        <Typography variant="title" text="Abyssinian 4" />
-        <Typography variant="caption" text="Egypt" color="#BFBFC0" />
+        <Icon name="unmatch" color="#E16359" />
+        <Icon name="match" color="#6BD88E" />
+        <Icon name="paw" color="#EC537E" />
+        <Icon name="chat" />
+        <Icon name="user" />
       </Root>
     </SafeAreaView>
   );

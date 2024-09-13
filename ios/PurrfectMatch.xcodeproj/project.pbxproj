@@ -47,8 +47,8 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = PurrfectMatch/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-PurrfectMatch-PurrfectMatchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PurrfectMatch-PurrfectMatchTests.release.xcconfig"; path = "Target Support Files/Pods-PurrfectMatch-PurrfectMatchTests/Pods-PurrfectMatch-PurrfectMatchTests.release.xcconfig"; sourceTree = "<group>"; };
 		AD28CCA83C7C7B9C22B91B13 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = PurrfectMatch/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		D456AAE8FA99466EABC7643D /* NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf"; path = "../src/assets/fonts/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
-		D456AAE8FA99466EABC7643D /* NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf */ = {isa = PBXFileReference; name = "NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf"; path = "../src/assets/fonts/NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +113,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		3C5F2860E46E4945A53FBAD6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D456AAE8FA99466EABC7643D /* NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
 		832341AE1AAA6A7D00B99B32 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
@@ -155,15 +164,6 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
-		};
-		3C5F2860E46E4945A53FBAD6 /* Resources */ = {
-			isa = "PBXGroup";
-			children = (
-				D456AAE8FA99466EABC7643D /* NunitoSans-VariableFont_YTLC,opsz,wdth,wght.ttf */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-			path = "";
 		};
 /* End PBXGroup section */
 

@@ -1,7 +1,7 @@
 import {SafeAreaView, StatusBar, StyleSheet} from "react-native";
 
 import styled from "styled-components/native";
-import {IconButton} from "~/components/IconButton";
+import {Card} from "~/components/Card";
 
 function App(): React.JSX.Element {
   const backgroundStyle = {
@@ -13,8 +13,7 @@ function App(): React.JSX.Element {
     <SafeAreaView style={backgroundStyle}>
       <StatusBar barStyle="dark-content" backgroundColor={backgroundStyle.backgroundColor} />
       <Root>
-        <IconButton icon="unmatch" color="#E16359" elevated />
-        <IconButton icon="match" color="#6BD88E" elevated />
+        <Card title="Abyssinian" info="4" caption="Egypt" image="https://cdn2.thecatapi.com/images/MTc1MDkyNQ.jpg" />
       </Root>
     </SafeAreaView>
   );
@@ -26,6 +25,7 @@ const Root = styled.View`
   justify-content: center;
   align-items: center;
   gap: 24px;
+  padding-horizontal: 16px;
 `;
 
 export default App;
